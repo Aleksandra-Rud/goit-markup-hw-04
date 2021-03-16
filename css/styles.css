@@ -98,6 +98,7 @@ img {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  fill: #AFB1B8;
 }
 
 .social-links-item {
@@ -349,7 +350,11 @@ img {
 }
 
 .team-title {
-  align-items: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
   margin-top: 30px;
   margin-bottom: 10px;
 }
@@ -550,7 +555,6 @@ img {
   justify-content: center;
   text-align: center;
   align-items: center;
-  border: none;
 }
 
 .projects-button {
@@ -569,6 +573,7 @@ img {
   padding-right: 22px;
   cursor: pointer;
   background-color: F5F4FA;
+  border: none;
 }
 
 .projects-button:hover,
